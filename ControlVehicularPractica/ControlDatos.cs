@@ -188,7 +188,7 @@ namespace ControlVehicularPractica
                 Console.WriteLine("Número de placa no existe");
             }
             else
-            {//corregir error, cambiar indice a i en montoPagar y vuelto para que me muestre los datos nuevos. 
+            {
                 Console.WriteLine("Digite la fecha (Formato dd/mm/aa): ");
                 fecha[modificar] = Console.ReadLine();
                 Console.WriteLine("Digite la hora (Formato 12:00 am/pm): ");
