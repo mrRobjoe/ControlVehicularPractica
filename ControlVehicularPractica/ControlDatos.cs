@@ -158,7 +158,7 @@ namespace ControlVehicularPractica
         public void Consultar(string plac)
         {
             int i = 0;
-            while ((i<indice) && (!plac.Equals(numeroPlaca[i])))
+            while ((i<=indice) && (!plac.Equals(numeroPlaca[i])))
             {
                 i++;
             }
@@ -179,7 +179,7 @@ namespace ControlVehicularPractica
         public void Modificar(string placa)
         {
             int i = 0;
-            while ((modificar<indice) && (!placa.Equals(numeroPlaca[modificar])))
+            while ((modificar<=indice) && (!placa.Equals(numeroPlaca[modificar])))
             {
                 modificar++;
             }
